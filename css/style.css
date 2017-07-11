@@ -1,0 +1,334 @@
+html {
+	font-family: sans-serif;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+header {
+	height: 90px;
+	border: 1px solid black;
+}
+/*----------------------------------------------Menu----------------------------------------*/
+
+
+
+/*---------------------------------Board----------------------------------------------*/
+.main .board {
+	height: 700px;
+	background: #cccccc;
+	background-image: url("../image/children.jpg");
+	background-color: rgb(69,179,219);
+}
+.main .board-txt {
+	text-align: left;
+	padding: 0;
+	margin-left: 30px;
+	margin-top: 210px;
+}
+.main .board-txt p{
+	font-size: 70px;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+.main .board-txt a{
+	border: 2px solid #ffffff;
+	font-family: Lato;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 20px 40px;
+}
+/*----------------------------------------Text-----------------------------------------*/
+.main {
+	text-align: center;
+}
+.main .text {
+	padding: 60px 0;
+}
+.main h1 {
+	font-size: 36px;
+	font-family: BreeSerif;
+	margin: 0;
+	margin-bottom: 30px;
+	color: rgb(91, 124, 137);
+	font-weight: bold;
+}
+.main p {
+	font-size: 16px;
+	font-family: Lato;
+	line-height: 1.5;
+	margin: 0;
+	color: rgb(91, 124, 137);
+}
+/*-----------------------------------------Offerings---------------------------------------------*/
+.main .offer-fon {
+	min-height: 890px;
+	background-image: url("../image/fon.jpg");
+	background-color: rgb(69,179,219);
+}
+.main .offer-fon .text{
+	height: 160px;
+}
+.main .offer-fon h1{
+	color: #ffffff;
+}
+.main h2 {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 0;
+	font-family: BreeSerif
+}
+.main .offer-fon p {
+	color: #ffffff;
+	padding-bottom: 70px
+}
+
+/*--------------------------------------------------Camps-----------------------------------------*/
+.main .camps {
+	padding: 0 30px;
+}
+.main .camps img {
+	margin-bottom: 15px;
+}
+.main .camps .col-md-4{
+	padding-left: 6px;
+	min-height: 470px;
+}
+.main .camps h2 {
+	color: rgb(91, 124, 137);
+	margin: 5px 0;
+	float: left;
+	padding: 0;
+	margin-bottom: 0;
+}
+.main .camps .date {
+	float: left;
+	clear: both;
+	font-size: 16px;
+	font-family: Lato;
+	margin: 0;
+	color: rgb(91, 124, 137);
+}
+.main .camps .price {
+	float: right;
+	width: 65px;
+	height: 45px;
+	background: rgb(69,179,219);
+	color: #ffffff;
+	font-size: 28px;
+	margin-top: -30px;
+}
+.main .camps .hrr {
+	border-bottom: 1px solid rgb(91, 124, 137);
+	height: 65px;
+	width: 362px;
+}
+.main .camps p {
+	clear: both;
+	text-align: left;
+	margin: 25px 0;
+}
+.main .camps .btn-camps a {
+	color: rgb(69,179,219);
+	border: 2px solid rgb(69,179,219);
+	padding: 10px 35px;
+}
+.main .camps .btn-camps a:hover {
+	color: #ffffff;
+	background: rgb(69,179,219);
+	opacity: 1;
+}
+/*--------------------------------------Slider-----------------------------------*/
+.main .slider {
+	height: 400px;
+	background-image: url("../image/fon_sl.jpg");
+	background-color: rgb(78,166,202);
+	margin-top: 70px; 
+}
+/*---------------------------------------Blog Posts------------------------------*/
+.main .posts {
+	min-height: 450px;
+	padding: 0 30px 70px;
+}
+
+.main .post1 {
+	text-align: left;
+	padding: 0;
+}
+.main .post-date {
+	position: absolute;
+	background: #ffffff;
+	top: 10px;
+	right: 62px;
+	padding: 3px 2px 3px 20px;
+	font-family: Lato;
+	font-size: 16px;
+	color: rgb(69,179,219);
+}
+.main .posts h2 {
+	color: rgb(91, 124, 137);
+	padding: 0;
+}
+hr {
+	width: 490px;
+	margin-left: 0;
+	height: 1px;
+	background-color: rgb(91, 124, 137);
+	margin-top: -5px;
+}
+.main .post2 {
+	padding: 0;
+	text-align: left;
+}
+.main .post2 h2 {
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 5px;
+}
+.main .post2 hr{
+	width: 305px;
+	margin-left: 5px;
+}
+.main .post2 p {
+	margin-left: 5px;
+}
+.main .post2 .post-date {
+	top: 10px;
+	right: 4px;
+	padding: 3px 2px 3px 20px;
+	font-family: Lato;
+	font-size: 16px;
+	color: rgb(69,179,219);
+}
+.main .post3 {
+	margin-top: 45px;
+}
+
+/*-----------------------------------------------Form---------------------------------*/
+.main .form-fon {
+	background-image: url("../image/fon-form.jpg");
+	background-color: rgb(59,173,213);
+	min-height: 640px;
+	padding: 0 130px 70px;
+}
+.main .form-fon .text h1 {
+	color: #ffffff;
+}
+.main .form-fon .text p {
+	color: #ffffff;
+}
+.main .form-fon .form1{
+	padding: 0;
+}
+.main .address h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	text-align: left;
+}
+.main .address li {
+	margin-bottom: 40px;
+	padding: 0;
+}
+.main .address ul {
+	padding: 0;
+	margin: 0;
+}
+.main .form-fon .addr-img{
+	padding: 0;
+	width: auto;
+}
+.main .form-fon .addr-img li:first-child {
+	margin-bottom: 103px;
+}
+.main .form-fon .addr-img li {
+	margin-bottom: 36px;
+}
+.main .form-fon .addr{
+	text-align: left;
+	line-height: 1.5;
+	padding: 0 0 0 30px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+}
+.main .form-fon .form2{
+	padding: 0 0 0 50px;
+}
+.main .form2 .input {
+	width: 100%;
+	height: 35px;
+	padding: 10px;
+	background: rgba(59,173,213,0);
+	border: 1px solid #ffffff;
+	margin-bottom: 30px;
+	font-family: Lato;
+	font-size: 16px;
+}
+.main .form2 .msg {
+	height: 80px;
+}
+.main .form2 .btn {
+	height: 35px;
+	width: 100px;
+	font-family: Lato;
+	font-size: 16px;
+	color: #ffffff;
+	background: rgba(59,173,213,0);
+	transition-duration: 0.5s;
+	border: 1px solid #ffffff;
+	float: left;
+	border-radius: 0;
+}
+.main .form2 .btn:hover {
+	opacity: 0.6;
+}
+
+::-webkit-input-placeholder {color:#ffffff;}
+::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#ffffff;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+/*----------------------------------------------Footer-------------------------------------*/
+footer {
+	height: 90px;
+}
+footer .col-xs-6{
+	padding: 0;
+}
+footer ul {
+	padding: 30px 20px 30px 100px;
+}
+footer li {
+	display: inline-block;
+	font-family: Lato;
+	font-size: 16px;
+	color: rgb(116, 136, 144);
+}
+footer .social {
+	float: right;
+	margin-right: 10px;
+}
